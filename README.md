@@ -19,8 +19,8 @@ Welcome to a full-stack adventure! This project combines a modern React frontend
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/reactMySQL.git
-    cd reactMySQL
+    git clone https://github.com/Harmandeep01/authApp.git
+    cd authApp
     ```
 2. **Install dependencies:**
     ```bash
@@ -38,6 +38,36 @@ Welcome to a full-stack adventure! This project combines a modern React frontend
   ```bash
   npm run dev
   ```
+### API Routes💾
+```
+1. GET (All users) : http://localhost:3000/getUsers
+
+
+2. POST (INSERT) :  http://localhost:3000/addUser
+
+    body (json data) 
+    {
+      {
+        "name" : "Harry",
+        "email" : "Harry@xyz.com",
+        "password" : "Harry@123"
+      }
+    }
+
+
+3. POST (LOGIN): http://localhost:3000/login
+  example body : 
+      {
+        "email" : "Harry@xyz.com",
+        "password" : "Harry@123"
+      }
+
+
+4. GET (Protected Route): http://localhost:3000/protected
+
+
+5. POST (REFRESH TOKEN): http://localhost:3000/token
+```
 
 ## 📁 Folder Structure
 
